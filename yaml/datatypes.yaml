@@ -1,0 +1,41 @@
+# String variables
+myself: Navaneeth Sharma
+fruit: "kukku"
+job: 'MLE'
+
+bio: |
+hey this is coool 
+and this is man
+
+# write a single line in multiple lines
+messege: > 
+this 
+will all be 
+in single line 
+# same as 
+messege: this will all be in single line 
+
+number: 50239
+marks: 89.234
+booleanValue: No #n,N,false,FALSE
+# yes,y,Y
+
+# specify type
+zero: !!int 0
+positiveNum: !!int 45
+negativeNum: !!int -45
+binaryNum: !!int 0b111011
+hexa: !!int 0x42
+commaValue: !!int 5_400_342
+
+# floating point numbers
+mrks: !!float 56.45
+inf: !!float .inf
+not a num: .nan 
+
+booleanValue: !!bool No #n,N,false,FALSE
+
+
+nullvalue: !!null Null 
+exponentialnumber: 6.203E3
+

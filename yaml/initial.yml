@@ -1,0 +1,18 @@
+"Cool" : "I am cool"
+1 : "I am not cool"
+---
+# lists
+- apple
+- mango
+- ban
+- Apple
+--- #separator
+cities:
+  - bangalore
+  - delhi
+  - kolkata
+---
+cities: [ban, del, kol]
+---
+
+...

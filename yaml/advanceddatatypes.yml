@@ -1,0 +1,38 @@
+student: !!seq
+ - marks
+ - name 
+ - usn
+ - Null
+
+nested:
+ - 
+  - cool
+  - ima
+ - 
+  - ksd
+  - das
+
+
+#pairs:kets may have duplicate values 
+pair ex: !!pairs
+ - job: student
+ - job: freelancer
+
+
+# dict !!omap
+people: !!omap
+ - Navaneeth: 
+  - name: Navaneeth 
+  - age: 102
+  - height: 213
+ - Cool:
+  - name: sdefw
+  - age: 102
+  - height: 213
+
+linkied: &baselinked
+ fav: as
+ dsndaew: edfwr 
+
+person1:
+  <<: *baselinked
